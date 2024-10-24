@@ -1,0 +1,5 @@
+
+                <h2>{{ produit.nom |upper }}</h2>
+<p>date: {{ produit.dateCreation | date("m/d/Y") }}</p>
+                <p>prix: {{ produit.prix }}</p>
+        <a href="{{path('app_produit')}}">go back</a>    
